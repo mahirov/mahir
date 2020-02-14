@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;}
+  
+    .middle {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  header {
+    position: absolute;
+    top: 10px;
+    height: 70px;
+    width:100%;
+    }
+  header > div { width: 33.33%;
+     position: relative;
+     height: 100%;
+    float:left;
+    padding-bottom:20px }
+  
+  .fa-user , .fa-compass , .fa-heart {margin-left: 30px;margin-right:0px;font-size:34px}
+  
+  
+  .left > div { float: left }
+  .sredina { text-align: center; }
+  input {position:relative;text-align:center;z-index: -1;margin-top: 20px;}
+  
+  
+  .fa-search {position: absolute;left: 90px;top: 45px;/* font-size: 15px; */}
+  h2 {font-size:34px;margin-left:50px}
+  .fa-instagram {font-size:34px;}
+  
