@@ -4,4 +4,6 @@ var cloner = {
   }
 };
 
-window.onload = cloner.init();
+window.onload = function () {
+  cloner.init();
+};
