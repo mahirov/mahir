@@ -12,5 +12,5 @@ var cloner = {
 };
 
 window.onload = function () {
-  // cloner.init();
+  cloner.init();
 };
