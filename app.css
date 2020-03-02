@@ -1,59 +1,137 @@
 html {
-    box-sizing: border-box;
-  }
-  *, *:before, *:after {
-    box-sizing: inherit;}
-    .container {width:800px;margin-left:25%;position: relative;}
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-    .middle {
-    display: block;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-  }
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  header {
-    position: absolute;
-    top: 10px;
-    height: 70px;
-    width:100%;
-    }
-  header > div { width: 33.33%;
-     position: relative;
-     height: 100%;
-    float:left;
-    padding-bottom:20px }
-  
-  .fa-user , .fa-compass , .fa-heart {margin-left: 30px;margin-right:0px;font-size:34px}
-  
-  
-  .left > div { float: left }
-  .sredina { text-align: center; }
-  input {position:relative;text-align:center;z-index: -1;margin-top: 20px;}
-  
-  
-  .fa-search {position: absolute;left: 90px;top: 45px;/* font-size: 15px; */}
-  h2 {font-size:34px;margin-left:50px}
-  .fa-instagram {font-size:34px;}
-  .post {margin-top:150px; outline:1px solid grey; width:500px;}
-  .post-header {font-size:1em;height:100px}
-  .post-controls {font-size:25px}
-  .fa-heart ,.fa-comment, fa-location-arrow {padding-right:10px;}  
-  .fa-heart {font-size:25px}
-  .nick {margin-left:50px;font-size:1.2em;position:absolute;bottom:8px} 
-  .slicica{position:absolute;bottom:1px}  
-  .sidebar {width:300px;position:absolute;top:0;right:0
-  }
-.profile-picture {width: 50px;
-height: 50px;
-border-radius: 100%;}
-.stories-header {float:right;margin-right:130px;position:relative
-  ;}
-  .stories {position:relative;top:100px;
-  left:35px;border:1px solid grey}
-  .suggestions-wrapper {position:relative;top:150px;left:35px;border:1px solid grey}
-  .suggestion {margin-top:10px}
+.container {
+  width:800px;
+  margin-left:25%;
+  position: relative;
+}
+
+.middle {
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+header {
+  position: absolute;
+  top: 10px;
+  height: 70px;
+  width:100%;
+}
+
+header > div { width: 33.33%;
+  position: relative;
+  height: 100%;
+  float:left;
+  padding-bottom:20px
+}
+
+.fa-user, .fa-compass, .fa-heart {
+  margin-left: 30px;
+  margin-right:0px;
+  font-size: 34px;
+}
+
+.left > div { float: left }
+
+.sredina { text-align: center; }
+
+input {
+  position:relative;
+  text-align:center;
+  z-index: -1;
+  margin-top: 20px;
+}
+
+.fa-search {
+  position: absolute;
+  left: 90px;
+  top: 45px;
+}
+
+h2 {
+  font-size:34px;
+  margin-left:50px
+}
+
+.fa-instagram {
+  font-size:34px;
+}
+
+.post {
+  margin-top:150px;
+  outline:1px solid grey;
+  width:500px;
+}
+
+.post-header {
+  font-size:1em;height:100px
+}
+
+.post-controls {
+  font-size:25px
+}
+
+.fa-heart , .fa-comment, .fa-location-arrow {
+  padding-right: 10px;
+}
+
+.fa-heart {
+  font-size:25px
+}
+
+.nick {
+  margin-left:50px;font-size:1.2em;position:absolute;bottom:8px
+}
+
+.slicica {
+  position:absolute;bottom:1px
+}
+.sidebar {
+  width:300px;
+  position:absolute;
+  top:0;
+  right:0;
+}
+
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+stories-header {
+  float:right;
+  margin-right:130px;
+  position:relative;
+}
+
+.stories {
+  position:relative;
+  top:100px;
+  left:35px;
+  border:1px solid grey;
+}
+
+.suggestions-wrapper {
+  position:relative;
+  top:150px;
+  left:35px;
+  border:1px solid grey;
+}
+
+.suggestion {
+  margin-top:10px;
+}
